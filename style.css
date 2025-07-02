@@ -66,7 +66,7 @@ body{
     justify-content: space-between;
     flex-direction: column;
     height: 287px;
-    border: solid 1px  red;
+    /*border: solid 1px  red;*/
 }
 
 .cricon{
@@ -81,4 +81,42 @@ body{
 
 #tx2{
     color: #8284FA;
+}
+
+.tasklist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border: solid 1px red;*/
+    width: 100%;
+    height: 85%;
+}
+
+#clip{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+#sub1::before{
+    margin-top: 10px;
+    content: "Você ainda não tem tarefas cadastradas";
+    display: flex;
+    opacity: 70%;
+    justify-content: center;
+  color: #808080;
+  font-style: inter;
+  font-size: 16px;
+  width: 100%;
+}
+
+#sub2::before{
+    content: "Crie tarefas e organize seus itens a fazer";
+    display: flex;
+    opacity: 50%;
+    justify-content: center;
+  color: #808080;
+  font-style: inter;
+  font-size: 16px;
+  width: 100%;
 }
